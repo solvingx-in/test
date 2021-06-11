@@ -27,3 +27,146 @@
 # Investments
 
 <iframe src="https://s.tradingview.com/embed-widget/market-overview/?locale=in#%7B%22colorTheme%22%3A%22light%22%2C%22dateRange%22%3A%2212M%22%2C%22showChart%22%3Atrue%2C%22largeChartUrl%22%3A%22%22%2C%22isTransparent%22%3Afalse%2C%22showSymbolLogo%22%3Atrue%2C%22width%22%3A%22600%22%2C%22height%22%3A%22660%22%2C%22plotLineColorGrowing%22%3A%22rgba(33%2C%20150%2C%20243%2C%201)%22%2C%22plotLineColorFalling%22%3A%22rgba(33%2C%20150%2C%20243%2C%201)%22%2C%22gridLineColor%22%3A%22rgba(240%2C%20243%2C%20250%2C%201)%22%2C%22scaleFontColor%22%3A%22rgba(120%2C%20123%2C%20134%2C%201)%22%2C%22belowLineFillColorGrowing%22%3A%22rgba(33%2C%20150%2C%20243%2C%200.12)%22%2C%22belowLineFillColorFalling%22%3A%22rgba(33%2C%20150%2C%20243%2C%200.12)%22%2C%22symbolActiveColor%22%3A%22rgba(33%2C%20150%2C%20243%2C%200.12)%22%2C%22tabs%22%3A%5B%7B%22title%22%3A%22Indices%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22FOREXCOM%3ASPXUSD%22%2C%22d%22%3A%22S%26P%20500%22%7D%2C%7B%22s%22%3A%22NSE%3ANIFTY%22%2C%22d%22%3A%22Nifty%22%7D%2C%7B%22s%22%3A%22BSE%3ASENSEX%22%2C%22d%22%3A%22Sensex%22%7D%5D%2C%22originalTitle%22%3A%22Indices%22%7D%2C%7B%22title%22%3A%22Bonds%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22BSE%3ABHRT22%22%2C%22d%22%3A%22Bharat%2022%22%7D%5D%2C%22originalTitle%22%3A%22Bonds%22%7D%2C%7B%22title%22%3A%22Stocks%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22NSE%3AHDFCBANK%22%2C%22d%22%3A%22HDFC%20Bank%20Ltd%22%7D%2C%7B%22s%22%3A%22NSE%3ABRITANNIA%22%2C%22d%22%3A%22Britannia%20Ind%20Ltd%22%7D%2C%7B%22s%22%3A%22NSE%3ABATAINDIA%22%2C%22d%22%3A%22BATA%22%7D%2C%7B%22s%22%3A%22NSE%3ARELIANCE%22%2C%22d%22%3A%22Reliance%22%7D%5D%7D%5D%2C%22utm_source%22%3A%22%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22market-overview%22%7D" style="height:100%; width:100%"></iframe>
+
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/stocks-india/" rel="noopener" target="_blank"><span class="blue-text">Stock Quotes</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+  "title": "Stocks",
+  "tabs": [
+    {
+      "title": "Financial",
+      "symbols": [
+        {
+          "s": "NYSE:JPM",
+          "d": "Jpmorgan Chase & Co"
+        },
+        {
+          "s": "NYSE:WFC",
+          "d": "Wells Fargo Co New"
+        },
+        {
+          "s": "NYSE:BAC",
+          "d": "Bank Amer Corp"
+        },
+        {
+          "s": "NYSE:HSBC",
+          "d": "Hsbc Hldgs Plc"
+        },
+        {
+          "s": "NYSE:C",
+          "d": "Citigroup Inc"
+        },
+        {
+          "s": "NYSE:MA",
+          "d": "Mastercard Incorporated"
+        }
+      ]
+    },
+    {
+      "title": "Technology",
+      "symbols": [
+        {
+          "s": "NASDAQ:AAPL",
+          "d": "Apple"
+        },
+        {
+          "s": "NASDAQ:GOOGL",
+          "d": "Google Inc"
+        },
+        {
+          "s": "NASDAQ:MSFT",
+          "d": "Microsoft Corp"
+        },
+        {
+          "s": "NASDAQ:FB",
+          "d": "Facebook Inc"
+        },
+        {
+          "s": "NYSE:ORCL",
+          "d": "Oracle Corp"
+        },
+        {
+          "s": "NASDAQ:INTC",
+          "d": "Intel Corp"
+        }
+      ]
+    },
+    {
+      "title": "Services",
+      "symbols": [
+        {
+          "s": "NASDAQ:AMZN",
+          "d": "Amazon Com Inc"
+        },
+        {
+          "s": "NYSE:BABA",
+          "d": "Alibaba Group Hldg Ltd"
+        },
+        {
+          "s": "NYSE:T",
+          "d": "At&t Inc"
+        },
+        {
+          "s": "NYSE:WMT",
+          "d": "Wal-mart Stores Inc"
+        },
+        {
+          "s": "NYSE:V",
+          "d": "Visa Inc"
+        }
+      ]
+    }
+  ],
+  "width": 400,
+  "height": 660,
+  "showChart": true,
+  "locale": "in",
+  "plotLineColorGrowing": "rgba(33, 150, 243, 1)",
+  "plotLineColorFalling": "rgba(33, 150, 243, 1)",
+  "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+  "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+  "gridLineColor": "#F0F3FA",
+  "scaleFontColor": "rgba(120, 123, 134, 1)",
+  "showSymbolLogo": true,
+  "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
+  "colorTheme": "light"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+
+
+
+
+```mermaid
+flowchart TD;
+    subgraph Portuguese
+        direction TB   
+        Parrive["Vasco Da Gama 1498 @Calicut Zamorin"]-->Almida["Almida Consolidate Indian Ocean"] --> Alfonso>"Alfonso - Goa, Grafting, Sati, Settlelers "] --> Cunha["Cunha HQ (Calicut)->(Goa) <br> Acq Bassien Killed Bahadur of Guj <br> Exp -> Hoogly"]
+    end
+    subgraph Britain
+        direction TB
+        Barrive>"[1606] William Hawkins - Jahangir <br> acquired favorable trade benefits"]-->Best["[1612] Capt Best @ Surat"]-->Surat[1613 Surat Factory <br>1612 Masulipatnam Facotry]-->Bombay["[1668]Bombay"]-->Madras["[1639] Madras"]
+    end
+    subgraph France
+        direction TB
+        A-->B
+    end
+    subgraph Indians
+        direction TB
+        Babur[Babur 1526-1530] --> Humayun[Humayun 1530-1556] --> Akbar[Akbar 1556-1605] -->Jahangir[Jahangir 1605-1627]-->ShahJhan[Shah Jahan 1628-1658] -->Aurenzeb[Aurenzeb 1658-1707];
+        Humayun <--> |"Adversary"|BahadurShah[BahadurShah Guj];ShahJhan-.->Golconda
+    end
+    Cunha--> |Killed|BahadurShah;
+    Barrive -.- Jahangir
+    Portuguese --blocked-->Barrive
+    Best --Fought off--> Portuguese
+    Portuguese --Dowry-->Bombay
+    Golconda --Free Trade & Fortification-->Madras
+
+```
